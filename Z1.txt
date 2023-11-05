@@ -1,0 +1,11 @@
+money_capital = 5000
+salary = 2000
+spend = 5000
+percent_expenses = 5
+month = 0
+i = 1
+while i <= month:
+budjet += money_capital + salary
+spend = spend + (spend / 100 * percent_expenses)
+i += 1
+print(round(month))
