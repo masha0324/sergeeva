@@ -1,0 +1,11 @@
+salary, spend = 3000, 5000
+
+count = 10
+spend_sum = 0
+while count:
+spend = spend + (0 if count==10 else spend / 100 * 3)
+spend_sum += spend
+count -= 1
+print(count, spend)
+else:
+print(f"oops = {spend_sum - salary*10:.2f} рублей")
